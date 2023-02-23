@@ -3,12 +3,13 @@
 // 5 -> 1, 8, 27, 64, 125
 
 int a = (3);
-int index = 0;
-int result = (index * index * index);
+int number = 1;
+int result;
 
-while (result <= a)
+while (number <= a)
 {
-    index++;
+    result = (number * number * number);
+    number++;
 }
 
 

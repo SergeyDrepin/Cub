@@ -2,7 +2,7 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-int a = (3);
+int a = 5;
 int number = 1;
 int result;
 
@@ -10,7 +10,5 @@ while (number <= a)
 {
     result = (number * number * number);
     number++;
+    Console.WriteLine(result);
 }
-
-
-Console.WriteLine(result);
